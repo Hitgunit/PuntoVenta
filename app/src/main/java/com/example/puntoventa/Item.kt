@@ -1,4 +1,5 @@
 package com.example.puntoventa
 
-data class Item (val name: String, val price: Double, val stock: Int, val Id: Int) {
+//Conexion para pasar los items requeridos del recyclerView
+data class Item (val name: String, val price: Double, val stock: Int) {
 }
